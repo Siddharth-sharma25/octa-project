@@ -1,0 +1,202 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero {
+    background-image: url('./food_home.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f26722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #e5531a;
+}
+
+#about {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#menu {
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+
+.menu-content {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Adjust as needed */
+    max-width: 100%; /* Ensure it takes the available width */
+    overflow: auto; /* Enable vertical scrolling if needed */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+.menu-items {
+    display: flex;
+}
+.menu-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+   
+}
+.menu-item p{
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-top: 8px; /* Add space between the heading and paragraph */
+    color: #666; /* Customize the text color */
+    text-align: justify; /* Justify the text for a paragraph-like appearance */
+    line-height: 1.5; /* Adjust the line height as needed for spacing */
+    margin: 20px; /* Add margin for spacing between paragraphs */
+    
+}
+.menu-item img {
+    max-width: 50%;
+    height:50%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f26722;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f26722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5531a;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
